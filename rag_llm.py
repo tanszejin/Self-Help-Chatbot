@@ -11,7 +11,7 @@ from langchain.schema import (
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-groq_api_key = process.env.GROQ_API_KEY
+groq_api_key = "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"
 chat = ChatGroq(temperature=0,
                 api_key=groq_api_key,
                 model_name="mixtral-8x7b-32768")
